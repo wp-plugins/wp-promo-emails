@@ -1,7 +1,7 @@
 === WP Promo Emails ===
 Contributors: cbfreeman
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BAZNKCE6Q78PJ
-Tags: email, emails, html emails, templates, notification, multisite
+Tags: email, emails, html emails, newsletter, templates, emailer, notification, promotions, marketing, business, multisite
 Requires at least: 2.8
 Tested up to: 4.0
 Stable tag: 1.0
