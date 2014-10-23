@@ -82,4 +82,4 @@ Yes. Send an email to the developer  wp_promo_mail [ at ] cbfreeman.com
 == Changelog ==
 
 = 1.0 =
- * WP Promo Emails first release
+ * WP Promo Emails first release *changed charset to UTF-8 
