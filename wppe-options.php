@@ -5,6 +5,7 @@
 		<?php settings_fields('wppe_full_options'); ?>
 <input type="hidden" name="subject_email" value="<?php echo esc_attr( $this->options['subject_email']);?>">
 <input type="hidden" name="template" value="<?php echo esc_attr( $this->options['template']);?>">
+<input type="hidden" name="wppe_preview" value="<?php echo esc_attr( $this->options['admin_email']);?>">
 		<!-- Sender options -->
 		<h3 class="wppe_title"><?php _e('Email Options', 'wp-promo-emails'); ?></h3>
 		<p style="margin-bottom: 0;"><?php _e('Set your own email subject.', 'wp-promo-emails'); ?></p>
@@ -20,9 +21,21 @@
 		<div id="wppe_template_container">
 			<?php $this->template_editor() ?>
 		</div>
+		<!-- Preview -->
+		<h3 class="wppe_title"><?php _e('Preview', 'wp-promo-emails'); ?></h3>
+		<table class="form-table">
+			<tr valign="top">
+				<th scope="row">
+					<label for="wppe_email_preview_field"><?php _e('Send an email preview to', 'wp-promo-emails'); ?></label>
+				</th>
+				<td>
+					<input type="text" id="wppe_email_preview_field" name="wppe_preview" class="regular-text" value="<?php esc_attr_e(get_option('admin_email')); ?>" />
+					<input type="submit" class="button" id="wppe_send_preview">&nbsp;<?php _e('Send Preview', 'wp-promo-emails'); ?>
+					<br /><span class="description"><?php _e('You must save your template before sending an email preview and/or promotion.', 'wp-promo-emails'); ?></span>
+				</td>
+			</tr>
+		</table>
 		<p class="submit">
-			<label for="wppe_email_preview_field"><?php _e('Be sure to Save Changes before you click Send Promotion', 'wp-promo-emails'); ?></label>
-			<br>
 			<input type="submit" class="button-primary" value="<?php _e('Save Changes', 'wp-promo-emails') ?>" />
 			<input type="submit" name="wp_promo" class="button-primary" value="<?php _e('Send Promotion', 'wp-promo-emails') ?>" />
 		</p>

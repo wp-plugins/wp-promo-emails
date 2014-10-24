@@ -1,10 +1,10 @@
 === WP Promo Emails ===
 Contributors: cbfreeman
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BAZNKCE6Q78PJ
-Tags: email, emails, html emails, newsletter, templates, emailer, notification, promotions, marketing, business, multisite
+Tags: email, emails, html emails, newsletter, newsletters, promotions, marketing, templates, notification, multisite
 Requires at least: 2.8
 Tested up to: 4.0
-Stable tag: 1.0
+Stable tag: 1.5
 License: GPLz3
 
 Adds a customizable content rich HTML emailer to your site.
@@ -52,7 +52,7 @@ WP Promo eMails is also available on [cbfreeman](http://cbfreeman.com/wp-promo-e
 2. Activate the plugin through the 'Plugins' menu in the WordPress admin panel
 3. Set your site title and email address in 'Dashboard >Settings > General' for use in email.
 4. Navigate to 'Dashboard > Settings > WP Promo Emails' to create emails.
-5. Every promotional email you send from your Wordpress Blog (sales, ads, etc.) looks better now !
+5. Every promotional email you send from your Wordpress Blog (promotions, newsletters, etc.) looks better now !
 
 == Upgrade Notice ==
 
@@ -82,4 +82,9 @@ Yes. Send an email to the developer  wp_promo_mail [ at ] cbfreeman.com
 == Changelog ==
 
 = 1.0 =
- * WP Promo Emails first release *changed charset to UTF-8 
+ * WP Promo Emails first release
+ * Changed charset to UTF-8
+
+= 1.5 =
+ * Added live email preview
+

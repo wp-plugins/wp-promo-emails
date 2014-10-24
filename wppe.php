@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: WP Promo Emails
-Plugin URI: http://cbfreeman.com/wp-promo-emails/
+Plugin URI: https://wordpress.org/plugins/wp-promo-emails/
 Description: Create content rich HTML emails to send to registered site users.
-Version: 1.0
+Version: 1.5
 Author: cbfreeman
 Author URI: http://cbfreeman.com
 License: GPLv3
@@ -57,9 +57,29 @@ License: GPLv3
   add_option('unsub_msg', $unsub_msg);
 
   $unsub_msg = '<html><head><title>Email Newsletter</title></head><body style="background:#F2F2F2;font-family:Verdana, Arial, Helvetica, sans-serif;padding-top  :65px;text-align:center;"><div style="background:#FFF;border:1px solid #ddd;border-radius:6px;max-width:580px;margin:0 auto;padding:34px 0 24px;width:580px"     ><div class="title"><h2>Thank You</h2><p>You have been successfully unsubscribed. You will no longer hear from us.</p></div></div></body></html>';
- 
+
 	
-  // Add Email Form
+	// Send Preview Email
+  if(isset($_POST['wppe_preview'])) {
+  $email = ($_POST['wppe_preview']);
+  if(isset($_POST['subject_email']))
+  $subject = ($_POST['subject_email']);
+  if(isset($_POST['template']))
+  $template = ($_POST['template']);
+  $unsubscribelink = get_option('siteurl') . "/wp-content/plugins/wp-promo-emails/unsubscribe/unsubscribe.php?member_0_0_0_0=$email";
+  $content = "$template<br>If you do not wish to receive this email please <a href='$unsubscribelink'>unsubscribe</a>.";
+  $to = "$email";
+  $subject = "$subject";
+  $sender = "$name Support for you" ;
+  $email = "$name<$admin>";
+  $headers = "From: " . $email . "\r\n";
+  $headers .= "MIME-Version: 1.0\r\n";
+  $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+  $sent = mail($to, $subject, $content, $headers) ;
+ }
+
+
+  // Send HTML Email
   if(isset($_POST['wp_promo'])) {
   if(isset($_POST['subject_email']))
   $subject = ($_POST['subject_email']);
