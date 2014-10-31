@@ -88,7 +88,7 @@ Yes. Send an email to the developer  wp_promo_mail [ at ] cbfreeman.com
 
 1. The default settings page provided with WP Promo eMails. Tested on many email clients like Gmail, Yahoo!, Live/Hotmail, etc.
 2. Sample email is provided with WP Promo eMails.
-3. Sample unsubscribe page is provided with WP Promo eMails.4. Dashboard section is providd with WP Promo eMails Premier Version. 
+3. Sample unsubscribe page is provided with WP Promo eMails. 
 
 
 == Changelog ==
