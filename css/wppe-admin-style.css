@@ -1,0 +1,27 @@
+#wppe_preview_email {
+	vertical-align: middle;
+}
+#wppe_ajax_loading {
+	vertical-align: middle;
+}
+#wppe_preview_message {
+	width: 80%;
+}
+#wppe_support {
+	color: #777;
+	border-top: solid 1px #DFDFDF;
+}
+#wppe_template_tbl {
+	border: solid 1px #ccc;
+	overflow: auto;
+}
+#wppe_template {
+	width: 100%;
+	height: 410px;
+}
+#wppe_template_container {
+	width: 80%;
+}
+#wppe_preview_template {
+	font-weight: normal;
+}
