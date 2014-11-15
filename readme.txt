@@ -44,12 +44,13 @@ The WP Promo Emails plugin from CBFREEMANWP allows you to create and send emails
   Wp Promo Emails is a fully functional but limited version of our full [WP Promo Emails plugin](http://cbfreeman.com/downloads/wp-promo-emails-premier/).
 
   Our full version includes many more features:
+
 * View Open Records - What to know if anyone actually read your emails?
 * Archive Email - You'll always have a record with timestamps on hand to refer back to when needed.
 * Resend Emails - Enjoy the convenience of pulling up your past emails to resend to a new audience.
 * Email History - View your least 5 emails in your dashboard
 
-[Upgrade to the full version now Â»](http://cbfreeman.com/downloads/wp-promo-emails-premier/)
+[Upgrade to the full version now »](http://cbfreeman.com/downloads/wp-promo-emails-premier/)
 
 = Internationalization =
 
@@ -115,4 +116,4 @@ Yes. Send an email to the developer  wp_promo_mail [ at ] cbfreeman.com
 
 = 4.0 =
  * Improved WP Promo Emails Dashboard Stats Widget
- * Added CBFREEMANWP Subscription Capability
+ 
