@@ -3,9 +3,9 @@ Contributors: cbfreeman
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BAZNKCE6Q78PJ
 Tags: email, emails, html emails, newsletter, newsletters, promotions, marketing, templates, notification, multisite
 Requires at least: 2.8
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 5.1
-License: GPLz3
+License: GPLz2
 
 Adds a customizable content rich HTML emailer to your site.
 
@@ -32,18 +32,18 @@ The WP Promo Emails plugin from CbFreemanWP allows you to create and send emails
 5. Send test emails.
 6. WP Promo Emails Dashboard Widget with current eMail Stats
 7. Support for localization or internationalization (Translators Welcome)
-8. Clean uninstall process, doesnt leave unwanted data in your database
+8. Clean uninstall process, doesn't leave unwanted data in your database
 
 = Bonus Features =
 
-* View Open Records - What to know if anyone actually read your emails?
+* View Open Records - Want to know if anyone actually read your emails?
 * Archive Email - You'll always have a record with timestamps on hand to refer back to when needed.
 * Resend Emails - Enjoy the convenience of pulling up your past emails to resend to a new audience.
-* Email History - View your least 5 emails in your dashboard
+* Email History - View your last 5 emails in your dashboard
 
 = Example usages : =
 
-* Send new promotions to every wordpress user
+* Send new promotions to every WordPress site user
 * Include some banners to promote a special event or feature of your website
 * Brand your emails to your website or client website
 
